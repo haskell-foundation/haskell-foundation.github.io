@@ -1,28 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>My Hakyll Blog - Tu Quoque</title>
-        <link rel="stylesheet" type="text/css" href="../css/default.css" />
-    </head>
-    <body>
-        <div id="header">
-            <div id="logo">
-                <a href="../">My Hakyll Blog</a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content>
+    <meta name="author" content="haskell foundation">
+
+    <title>Tu Quoque</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Foundation</a>
             </div>
-            <div id="navigation">
-                <a href="../">Home</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-                <a href="../archive.html">Archive</a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="../features.html">Features</a>
+                    </li>
+                    <li>
+                        <a href="../documentation.html">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="../bench.html">Benchmarks</a>
+                    </li>
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <div id="content">
-            <h1>Tu Quoque</h1>
-
-            <div class="info">
+    <div class="info">
     Posted on December  7, 2015
     
         by Julius
@@ -35,10 +80,33 @@
 <p>Nulla adipiscing ultricies lobortis. Vivamus iaculis nisl vitae tellus laoreet vitae aliquet lacus mollis. Phasellus ut lacus urna, sed sagittis ante. Etiam consectetur pretium nisl sed dignissim. Pellentesque convallis, nisl eget commodo mollis, sem magna consequat arcu, sed pretium ipsum arcu sit amet neque. Aliquam erat volutpat. Morbi sed mi sed urna vestibulum placerat vitae vel metus. Fusce ac ante at justo pharetra vehicula. Vivamus vel tortor eget augue aliquet aliquet at vel odio. Nunc venenatis, magna quis facilisis fringilla, augue tellus varius neque, in vulputate est eros ut tortor. Duis lorem neque, aliquam congue posuere id, condimentum non dui. Phasellus ut dui massa, porttitor suscipit augue. Praesent quis tellus quam, vel volutpat metus. Vivamus enim est, aliquam in imperdiet et, sagittis eu ligula. Vestibulum hendrerit placerat orci et aliquet. Cras pharetra, dolor placerat lobortis tempor, metus odio cursus ligula, et posuere lacus ligula quis dui.</p>
 <p>Donec a lectus eu nibh malesuada aliquam. Proin at metus quam, et tincidunt leo. Quisque lacus justo, scelerisque sodales pulvinar sed, dignissim ut sapien. Vivamus diam felis, adipiscing sollicitudin ultricies id, accumsan ac felis. In eu posuere ligula. Suspendisse potenti. Donec porttitor dictum dui id vehicula. Integer ante velit, congue id dictum et, adipiscing a tortor.</p>
 
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                  <span class="copyright">Copyright &copy; Foundation 2016 -- generated by <a href>hakyll</a></span>
+                </div>
+            </div>
         </div>
-        <div id="footer">
-            Site proudly generated by
-            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
-        </div>
-    </body>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <!--<script src="js/contact_me.js"></script>-->
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
 </html>
